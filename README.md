@@ -1,5 +1,7 @@
 # ExtraEnum
 
+[![CI](https://github.com/aggressive-labs/extra_enum/actions/workflows/ci.yml/badge.svg)](https://github.com/aggressive-labs/extra_enum/actions/workflows/ci.yml) [![Hex.pm](https://img.shields.io/hexpm/v/extra_enum.svg)](https://hex.pm/packages/extra_enum) [![HexDocs](https://img.shields.io/badge/docs-hexdocs-blue.svg)](https://hexdocs.pm/extra_enum)
+
 Extra Enumerables to help with various tasks.
 
 ## Usage
