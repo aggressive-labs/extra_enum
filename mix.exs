@@ -1,19 +1,19 @@
 defmodule ExtraEnum.MixProject do
   use Mix.Project
 
-  @version "0.1.1"
+  @version "0.1.2"
 
   def project do
     [
       app: :extra_enum,
       version: @version,
-      elixir: "~> 1.11.1",
+      elixir: "~> 1.11",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: false,
       deps: deps(),
       name: "ExtraEnum",
       description: "Provides useful extra enumerable types for Elixir.",
-      source_url: "https://github.com/jvantuyl/extra_enum",
+      source_url: "https://github.com/aggressive-labs/extra_enum",
       package: package(),
       dialyzer: [
         ignore_warnings: ".dialyzer_ignore.exs"
@@ -37,7 +37,7 @@ defmodule ExtraEnum.MixProject do
   end
 
   defp package() do
-    [licenses: ["MIT"], links: %{"GitHub" => "https://github.com/jvantuyl/extra_enum"}]
+    [licenses: ["MIT"], links: %{"GitHub" => "https://github.com/aggressive-labs/extra_enum"}]
   end
 
   defp docs() do
